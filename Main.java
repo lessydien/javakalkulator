@@ -32,5 +32,19 @@ public class Main
         hasil = calculator2.penjumlahan(2,3);        
         System.out.println(hasil);
         
+        System.out.println();
+        
+         
+        CalculatorAdvanced calculator3 = new CalculatorAdvanced();
+        System.out.println(calculator3.opA);
+        System.out.println(calculator3.opB);
+        System.out.println(calculator3.info);
+        hasil = calculator3.penjumlahan();        
+        System.out.println(hasil);
+        hasil = calculator3.penjumlahan(2,3);        
+        System.out.println(hasil);
+        hasil = calculator3.menghitungFactorial(4);
+        System.out.println(hasil);
+        
     }
 }
