@@ -15,7 +15,7 @@ public class CalculatorAdvanced extends Calculator
     public CalculatorAdvanced()
     {
         // initialise instance variables
-        
+        super.opA = 7;
     }
     
     /**
@@ -28,8 +28,10 @@ public class CalculatorAdvanced extends Calculator
      */
     public int menghitungFactorial(int opA)
     {
+        //int hasil = 0;
         // logic factorial () tugas    
-        return opA;
+        int hasil = super.penjumlahan(3,4);
+        return opA + hasil;
     }
 
   

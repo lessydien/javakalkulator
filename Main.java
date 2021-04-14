@@ -43,7 +43,7 @@ public class Main
         System.out.println(hasil);
         hasil = calculator3.penjumlahan(2,3);        
         System.out.println(hasil);
-        hasil = calculator3.menghitungFactorial(4);
+        hasil = calculator3.menghitungFactorial(4) + calculator3.penjumlahan(3,4);
         System.out.println(hasil);
         
     }
