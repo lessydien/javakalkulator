@@ -9,8 +9,13 @@ import java.lang.Math;
  */
 public class CalculatorTriDeg extends CalculatorTrigonometri
 {
-   public void konversi(double deg)
+   //public void konversi(double deg)
+   //{
+     //  super.op = Math.toRadians(deg);
+   //}
+   
+   public double konversi(double deg)
    {
-       super.op = Math.toRadians(deg);
+       return Math.toRadians(deg);
    }
 }

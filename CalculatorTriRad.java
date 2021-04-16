@@ -10,8 +10,14 @@ import java.lang.Math;
 public class CalculatorTriRad extends CalculatorTrigonometri
 {
     
-    public void konversi(double rad)
+    //public void konversi(double rad)
+    //{
+      //  super.op = rad;
+    //}
+    
+    public double konversi(double rad)
     {
-        super.op = rad;
+        return rad;
     }
+    
 }
