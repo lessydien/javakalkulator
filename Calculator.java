@@ -73,7 +73,7 @@ public class Calculator
      */
     public int penjumlahan()
     {   
-        simpanOperasi("+ "+String.valueOf(this.opA)+" "+String.valueOf(this.opB))
+        simpanOperasi("+ "+String.valueOf(this.opA)+" "+String.valueOf(this.opB));
         return this.opA + this.opB;
     }
     
